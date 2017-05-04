@@ -1,0 +1,78 @@
+/*style.css*/
+
+body {
+	background: rgb(245,245,245);
+	color: blue;
+	font-size: 25px;
+	font-family: Helvetica;
+}
+h1 {
+	font-family: Courier;
+	color: red;
+	font-weight: lighter;
+	font-size: 15px;
+}
+h2 {
+	font-family: Courier;
+	color: pink;
+	font-weight: lighter;
+	font-size: 12px;
+}
+a {
+	color: purple;
+}
+a:hover {
+	text-decoration: none;
+	color: purple;
+}
+
+/*Configurações do cabeçalho*/
+#banner{
+  text-align: center;
+  background-image: url(images/StudySpace.jpg);
+  background-size: cover;
+  padding: 150px;
+  color: white;
+  text-shadow: 5px 5px 15px black;
+}
+#banner h1 {
+  color: white;
+  font-size: 50px;
+}
+#banner h2 {
+  color: purple;
+  font-size: 35px;
+}
+#banner p {
+  color: white;
+  opacity: 0.8;
+  font-size: 30px;
+  font-weight: lighter;
+ }
+ #banner a {
+ 	color: purple;
+ 	opacity: 0,4
+ }
+/*Configurações do rodapé*/
+#footer{
+  padding: 30px;
+  background: rgb(30, 30, 30);
+  color: lightgrey;
+}
+#footer a{
+	color: lightgray;
+	font-size: 15px
+}
+#footer a:hover{
+	color:white;
+}
+/*Configurações do centro*/
+.card{
+  text-align: center;
+  padding: 50px;
+  font-weight: lighter;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+  	background-image: url("https://static.pexels.com/photos/268976/pexels-photo-268976.jpeg");
+	background-size:100%;
+}

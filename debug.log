@@ -16,3 +16,7 @@
 [0504/075336.171:ERROR:crash_report_database_win.cc(563)] CreateDirectory C:\Program Files (x86)\Google\Chrome\reports: Acesso negado. (0x5)
 [0504/075336.473:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: O pipe foi finalizado. (0x6D)
 [0504/075337.005:ERROR:crashpad_win.cc(223)] Crashpad handler failed to start, crash reporting disabled
+[0508/145022.647:ERROR:crash_report_database_win.cc(563)] CreateDirectory C:\Program Files (x86)\Google\Chrome\reports: Acesso negado. (0x5)
+[0508/145022.750:ERROR:crash_report_database_win.cc(563)] CreateDirectory C:\Program Files (x86)\Google\Chrome\reports: Acesso negado. (0x5)
+[0508/145022.770:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: O pipe foi finalizado. (0x6D)
+[0508/145023.827:ERROR:crashpad_win.cc(223)] Crashpad handler failed to start, crash reporting disabled

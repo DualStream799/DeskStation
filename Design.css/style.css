@@ -1,8 +1,14 @@
 /*style.css*/
-
+* {
+    box-sizing: border-box;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
 body {
 	background: url("C:/Users/duals/Documents/GitHub/DeskStation/Images/darkflow.jpg");
-  background-size: cover;
+    background-size: cover;
 	color: blue;
 	font-size: 30px;
 	font-family: Helvetica;
@@ -44,7 +50,21 @@ b:hover{
 }
 
 /*Configurações do cabeçalho*/
-#banner{
+
+header {
+    width: 100%;
+    height: 200px;
+    background: #CCC;
+    position: relative;
+}
+nav {
+    width: 100%;
+    height: 100px;
+    background-color: #999;
+    position: absolute;
+    bottom: 0;
+}
+.banner{
   text-align: center;
   background-image: url(C:/Users/duals/Documents/GitHub/DeskStation/Images/StudySpace.jpg);
   background-size: cover;
@@ -52,39 +72,40 @@ b:hover{
   color: white;
   text-shadow: 5px 5px 15px black;
   border:2px gray;
-  margin: 7px;
+  margin: 0px;
   box-shadow: 0px 0px 10px gray;
+  position: relative;
 }
-#banner h1 {
+.banner h1 {
   color: white;
   font-size: 50px;
 }
-#banner h2 {
+.banner h2 {
   font-family: Arial;
   color: purple;
   font-size: 35px;
 }
-#banner p {
+.banner p {
   color: white;
   opacity: 0.8;
   font-size: 30px;
   font-weight: lighter;
  }
- #banner a {
+ .banner a {
  	color: purple;
  	opacity: 0,4
  }
 /*Configurações do rodapé*/
-#footer{
+footer{
   padding: 30px;
   background: rgb(30, 30, 30);
   color: lightgrey;
 }
-#footer a{
+footer a{
 	color: lightgray;
 	font-size: 15px
 }
-#footer a:hover{
+footer a:hover{
 	color:white;
 }
 /*Configurações das tags centrais*/
@@ -94,5 +115,5 @@ b:hover{
   font-weight: lighter;
   color: white;
   text-shadow: 1px 1px 5px black;
-	background-size:100%;
+  background-size:100%;
 }

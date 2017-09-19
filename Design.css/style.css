@@ -1,7 +1,7 @@
 /*style.css*/
 
 body {
-	background: url("images/darkflow.jpg");
+	background: url("C:/Users/duals/Documents/GitHub/DeskStation/Images/darkflow.jpg");
   background-size: cover;
 	color: blue;
 	font-size: 30px;
@@ -46,7 +46,7 @@ b:hover{
 /*Configurações do cabeçalho*/
 #banner{
   text-align: center;
-  background-image: url(images/StudySpace.jpg);
+  background-image: url(C:/Users/duals/Documents/GitHub/DeskStation/Images/StudySpace.jpg);
   background-size: cover;
   padding: 175px;
   color: white;

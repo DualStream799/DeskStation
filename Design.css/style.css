@@ -53,15 +53,18 @@ b:hover{
 
 header {
     width: 100%;
-    height: 200px;
+    height: 110px;
     background: #CCC;
     position: relative;
+
 }
 nav {
     width: 100%;
     height: 100px;
     background-color: #999;
-    position: absolute;
+    position: relative;
+    border: 2px gray;
+    box-shadow: -2px 0px 10px black;
     bottom: 0;
 }
 .banner{

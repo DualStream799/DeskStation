@@ -7,7 +7,7 @@ html, body {
     padding: 0;
 }
 body {
-	background: url("C:/Users/duals/Documents/GitHub/DeskStation/Images/darkflow.jpg");
+	background: url("C:/Users/duals/Documents/GitHub/DeskStation/Images/light-stripes.jpg");
     background-size: cover;
 	color: blue;
 	font-size: 30px;
@@ -53,19 +53,19 @@ b:hover{
 
 header {
     width: 100%;
-    height: 110px;
+    height: 100px;
     background: #CCC;
     position: relative;
 
 }
-nav {
+.topmenu {
     width: 100%;
-    height: 100px;
-    background-color: #999;
+    height: 75px;
+    background-color: black;
     position: relative;
     border: 2px gray;
-    box-shadow: -2px 0px 10px black;
-    bottom: 0;
+    box-shadow: -2px 0px 10px white;
+    bottom: 0;//
 }
 .banner{
   text-align: center;
@@ -87,7 +87,7 @@ nav {
   font-family: Arial;
   color: purple;
   font-size: 35px;
-}
+}''
 .banner p {
   color: white;
   opacity: 0.8;

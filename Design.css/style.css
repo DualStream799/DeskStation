@@ -7,7 +7,7 @@ html, body {
     padding: 0;
 }
 body {
-	background: url("C:/Users/duals/Documents/GitHub/DeskStation/Images/light-stripes.jpg");
+	background: url("../Images/lines-vertical.jpg");
     background-size: cover;
 	color: blue;
 	font-size: 30px;
@@ -69,9 +69,9 @@ header {
 }
 .banner{
   text-align: center;
-  background-image: url(C:/Users/duals/Documents/GitHub/DeskStation/Images/StudySpace.jpg);
+  background-image: url(../Images/StudySpace.jpg);
   background-size: cover;
-  padding: 175px;
+  padding: 225px;
   color: white;
   text-shadow: 5px 5px 15px black;
   border:2px gray;

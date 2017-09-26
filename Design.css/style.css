@@ -61,11 +61,10 @@ header {
 .topmenu {
     width: 100%;
     height: 75px;
-    background-color: black;
-    position: relative;
+    position: absolute;
     border: 2px gray;
     box-shadow: -2px 0px 10px white;
-    bottom: 0;//
+    bottom: 0;
 }
 .banner{
   text-align: center;
